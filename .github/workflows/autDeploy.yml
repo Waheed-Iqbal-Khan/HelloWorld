@@ -33,4 +33,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge     
-        run: surge ./ waheediqbal.surge.sh --token $ {{ secrets.HELLOWORLD_SEC }}
+        run: surge ./ waheediqbal.surge.sh --token ${{ secrets.HELLOWORLD_SEC }}
